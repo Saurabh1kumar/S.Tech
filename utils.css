@@ -108,25 +108,10 @@ footer .bottom-details .bottom_text{
 .bottom-details .bottom_text a{
   margin-right: 10px;
 }
-@media (max-width: 900px) {
-  footer .content .link-boxes{
-    flex-wrap: wrap;
+@media (max-width: 950px) {
+  .content{
+    display: none;
+    
   }
-}
-@media (max-width: 700px){
-  footer{
-    position: relative;
-  }
-  
-  .bottom-details .bottom_text span,
-  .bottom-details .bottom_text a{
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px){
-  footer::before{
-    top: 145px;
-  }
-  
 }
 
